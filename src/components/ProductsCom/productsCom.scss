@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.kla{
+  justify-content: center;
+  align-items: center;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ padding: 2.5em 0 6px;
+ line-height: 1.4;
+}
+.sd{
+  background-color: #fbbc01;
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  transition: all 290ms ease-in-out;
+
+  &:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fbbc01; 
+  }
+}
+
+

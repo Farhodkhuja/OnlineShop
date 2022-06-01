@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar{
+  min-height: 100px !important;
+  .container-fluid{
+    max-width: 85% !important;
+    .nav{
+      font-size: 18px !important;
+      color: #FFFFFF!important;
+      margin-right: 60px !important;
+    }
+    .nav:last-child{
+      margin-right: 0 !important;
+    }
+  }
+}
